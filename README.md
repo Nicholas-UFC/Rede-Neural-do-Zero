@@ -48,7 +48,7 @@ Para executar este projeto em sua máquina local, siga os passos abaixo:
 1.  **Clone o repositório:**
     ```bash
     git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
-    cd SEU-REPOSITORIO
+    cd SEU-REPOSITORIO](https://github.com/Nicholas-UFC/Rede-Neural-do-Zero.git)
     ```
 
 2.  **Crie um ambiente virtual e instale as dependências:**
