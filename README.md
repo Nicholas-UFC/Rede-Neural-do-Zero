@@ -16,12 +16,12 @@ O modelo foi treinado para resolver um problema de classificação não linear, 
 #### Dados Originais
 Os dados consistem em duas classes distribuídas em formato de "luas", tornando o problema ideal para um classificador não linear.
 
-![Dados Originais](caminho/para/sua/imagem_dados.png)
+![Dados Originais](./imagens/dados.png)
 
 #### Fronteira de Decisão Aprendida
 Após o treinamento, a rede neural aprende uma fronteira de decisão capaz de separar as duas classes com alta acurácia.
 
-![Fronteira de Decisão](caminho/para/sua/imagem_fronteira.png)
+![Fronteira de Decisão](./imagens/fronteira.png)
 
 ## Principais Funcionalidades
 
