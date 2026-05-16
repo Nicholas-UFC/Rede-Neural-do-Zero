@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(caveman:caveman-commit)",
+      "Skill(caveman:caveman-commit:*)"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+[project]
+name = "rede-neural-do-zero"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy==2.4.5",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.13",
+]
+
+[tool.ruff]
+line-length = 88          # black default
+indent-width = 4
+target-version = "py313"
+extend-include = ["*.ipynb"]   # habilita .ipynb
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors  (flake8)
+    "W",   # pycodestyle warnings (flake8)
+    "F",   # pyflakes              (flake8)
+    "I",   # isort
+    "UP",  # pyupgrade — moderniza sintaxe automaticamente
+    "B",   # flake8-bugbear — bugs comuns e design ruim
+    "SIM", # flake8-simplify — simplifica código desnecessariamente verboso
+    "RUF", # regras próprias do ruff
+]
+ignore = [
+    "E501", # line too long — black já cuida disso
+]
+
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["W291"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["bank_marketing_dataset"]
+force-sort-within-sections = true
+
+[tool.ruff.format]
+quote-style = "double"          # black usa double quotes
+indent-style = "space"
+skip-magic-trailing-comma = false
+docstring-code-format = true
